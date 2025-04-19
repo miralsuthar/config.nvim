@@ -24,7 +24,7 @@ require('lazy').setup({
   -- options to `gitsigns.nvim`.
   --
   -- See `:help gitsigns` to understand what the configuration keys do
-  require 'kickstart.plugins.gitsigns',
+  -- require 'kickstart.plugins.gitsigns',
   -- NOTE: Plugins can also be configured to run Lua code when they are loaded.
   --
   -- This is often very useful to both group configuration, as well as handle
@@ -38,7 +38,7 @@ require('lazy').setup({
   --
   -- Then, because we use the `opts` key (recommended), the configuration runs
   -- after the plugin has been loaded as `require(MODULE).setup(opts)`.
-  require 'kickstart.plugins.which-key',
+  -- require 'kickstart.plugins.which-key',
   -- NOTE: Plugins can specify dependencies.
   --
   -- The dependencies are proper plugin specifications as well - anything
@@ -46,22 +46,22 @@ require('lazy').setup({
   --
   -- Use the `dependencies` key to specify the dependencies of a particular plugin
 
-  require 'kickstart.plugins.telescope',
+  -- require 'kickstart.plugins.telescope',
   -- LSP Plugins
-  require 'kickstart.plugins.lazy-dev',
+  -- require 'kickstart.plugins.lazy-dev',
   --
-  require 'kickstart.plugins.nvim-lsp-config',
+  -- require 'kickstart.plugins.nvim-lsp-config',
   --
-  require 'kickstart.plugins.conform',
+  -- require 'kickstart.plugins.conform',
   --
-  require 'kickstart.plugins.tokynight',
+  -- require 'kickstart.plugins.tokynight',
 
   -- Highlight todo, notes, etc in comments
-  require 'kickstart.plugins.todo-comments',
+  -- require 'kickstart.plugins.todo-comments',
   --
-  require 'kickstart.plugins.mini',
+  -- require 'kickstart.plugins.mini',
   --
-  require 'kickstart.plugins.nvim-treesitter',
+  -- require 'kickstart.plugins.nvim-treesitter',
 
   -- The following comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
@@ -72,10 +72,10 @@ require('lazy').setup({
   --  Here are some example plugins that I've included in the Kickstart repository.
   --  Uncomment any of the lines below to enable them (you will need to restart nvim).
   --
-  require 'kickstart.plugins.debug',
-  require 'kickstart.plugins.indent_line',
+  -- require 'kickstart.plugins.debug',
+  -- require 'kickstart.plugins.indent_line',
   -- require 'kickstart.plugins.lint',
-  require 'kickstart.plugins.autopairs',
+  -- require 'kickstart.plugins.autopairs',
   -- require 'kickstart.plugins.neo-tree',
   -- require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
   --
